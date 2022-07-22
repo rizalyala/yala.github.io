@@ -5,27 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap" rel="stylesheet">
     <title>Site</title>
-    <style>
-        *{
-            font-family: 'Cormorant SC', serif;
-        }
-    </style>
 </head>
-<body class="bg-zinc-800 text-white">
+<body class="bg-zinc-800 text-white font-mono">
     <div class="container mx-auto">
+
+        <!-- NAVBAR -->
         <nav class="w-full justify-center flex flex-row">
             <div class="text-xl p-1">
                 <a class="mr-2" href="#">Home</a>
-                <a class="mr-2" href="#">nav 1</a>
-                <a class="mr-2" href="#">nav 1</a>
-                <a class="mr-2" href="#">nav 1</a>
-                <a class="mr-2" href="#">nav 1</a>
+                <a class="mr-2" href="#">Bio</a>
+                <a class="mr-2" href="#">Projects</a>
             </div>
         </nav>
+
+        <!-- MAIN -->
+        <main>
+            <div class="mx-auto w-max h-max grid grid-cols-2 mt-6">
+                <div class="bg-slate-300 w-24 h-24 rounded-lg mt-5">
+                    <img src="" alt="">
+                </div>
+                <div class="mt-5">
+                    <div class="bg-slate-300 rounded-lg mb-1 p-1 text-zinc-700 w-full">Rizal Yala Paradhika</div>
+                    <div class="border border-neutral-500 rounded-lg mb-1 p-1 w-max">Jr WebDev</div>
+                    <div class="border border-neutral-500 rounded-lg mb-1 p-1 w-max">
+                        <span class="text-yellow-400">javascript</span>
+                        <span class="text-sky-400">python</span>
+                        <span class="text-emerald-400">django</span>
+                        <span class="text-orange-400">sql</span>
+                    </div>
+                </div>
+                <div class="border border-neutral-500 col-span-2 h-max p-1 rounded-lg mt-2">
+                    <p>Halo semua saya adalah yang sudah tertera di atas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mx-auto w-max h-48 mt-24 flex gap-5">
+                <div class="border border-neutral-500 p-1 rounded-lg w-32 h-full">
+                    <p class="text-center">Github Profile</p>
+                </div>
+                <div class="border border-neutral-500 p-1 rounded-lg w-32 h-full">
+                    <p class="text-center">Instagram</p>
+                </div>
+                <div class="border border-neutral-500 p-1 rounded-lg w-32 h-full">
+
+                </div>
+            </div>
+        </main>
     </div>
 </body>
 </html>
