@@ -5,58 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Site</title>
     <style>
-        body{
-            background-image: url("https://media.giphy.com/media/pVGsAWjzvXcZW4ZBTE/giphy.gif");
-        }
+        
     </style>
 </head>
-<body class="text-white font-mono bg-no-repeat bg-cover">
-    <div class="container mx-auto">
+<body>
+    <div class="container mx-auto p-2 h-16 mt-3">
         <!-- NAVBAR -->
-        <nav class="w-full justify-center flex flex-row">
-            <div class="text-xl p-1">
-                <a class="mr-2" href="#">Home</a>
-                <a class="mr-2" href="#">Bio</a>
-                <a class="mr-2" href="#">Projects</a>
+        <nav >
+            <div class="flex flex-row justify-center cardnav">
+                <a class="mr-6 retroFont" href="#">Home</a>
+                <a class="mr-6 retroFont" href="#">Bio</a>
+                <a class="mr-6 retroFont" href="#">Projects</a>
             </div>
         </nav>
 
         <!-- MAIN -->
+
         <main>
             <div class="mx-auto w-max h-max grid grid-cols-2 mt-6">
-                <div class="bg-slate-300 w-24 h-24 rounded-lg mt-5">
+
+                <!-- COL 1 -->
+                <div class="cardnav w-72 h-72">
                     <img src="" alt="">
                 </div>
+                
+                <!-- COL 2 -->
                 <div class="mt-5">
-                    <div class="bg-slate-900 rounded-lg mb-1 p-1 text-zinc-100 w-full">Rizal Yala Paradhika</div>
-                    <div class="border border-neutral-500 bg-slate-900 rounded-lg mb-1 p-1 w-max">Jr WebDev</div>
-                    <div class="border border-neutral-500 bg-slate-900 rounded-lg mb-1 p-1 w-max">
-                        <span class="text-yellow-400">javascript</span>
-                        <span class="text-sky-400">python</span>
-                        <span class="text-emerald-400">django</span>
-                        <span class="text-orange-400">sql</span>
+                    <div class="mb-1 p-1 retroFont14 text-lg text-zinc-400">> Rizal Yala Paradhika</div>
+                    <div class="mb-1 p-1 retroFont14 text-lg text-indigo-400">> Jr WebDev & Mobile App Dev</div>
+                    <div class="mb-1 p-1 retroFont14 text-lg">
+                        <span class="text-slate">Flutter & Dart</span>
+                        <span class="text-slate">python</span>
+                        <span class="text-slate">django</span>
+                        <span class="text-slate">sql</span>
                     </div>
                 </div>
-                <div class="border border-neutral-500 bg-slate-900 col-span-2 h-max p-1 rounded-lg mt-2">
-                    <p>Halo semua saya adalah yang sudah tertera di atas.
+            </div>
+
+            <div class="mx-auto mt-6 retroFont14" style="width: 820px;">
+                <div>
+                    <p>Saya adalah Programmer, lebih tepatnya Programmer Mobile App.lahir di kota Malang, Indonesia.
+                        <br>Minat saya terhadap pemrograman dimulai sejak SMP atau 2015-an. Saat ini saya masih menempuh pendidikan S1 di Universitas Terbuka dengan Prodi Sistem Informasi.
+                            Saya merupakan freshgraduate di bidang pemrograman karena belum berpengalaman di industri teknologi manapun.
+        
+                        <br><br> Tetapi saya mempunyai beberapa proyek sebagai bahan referensi pengalaman saya.Selain itu saya mempunyai dasar seni , 
+                        tepatnya seni kerajinan keramik, memang tidak relevan dengan kemampuan yang saya kuasai saat ini, 
+                        namun bagi saya ilmu seni juga diperlukan saat mengembangkan aplikasi.
                     </p>
                 </div>
-            </div>
-            
-            <div class="mx-auto w-max h-48 mt-24 flex gap-5">
-                <div class="border border-neutral-500 bg-slate-900 p-1 rounded-lg w-32 h-full">
-                    <p class="text-center">Github Profile</p>
-                </div>
-                <div class="border border-neutral-500 bg-slate-900 p-1 rounded-lg w-32 h-full">
-                    <p class="text-center">Instagram</p>
-                </div>
-                <div class="border border-neutral-500 bg-slate-900 p-1 rounded-lg w-32 h-full">
-
-                </div>
+                
             </div>
         </main>
     </div>
+    
 </body>
 </html>
