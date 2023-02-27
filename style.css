@@ -6,9 +6,10 @@ body{
 .cardnav{
     background-color: #FEFBE9;
     border: 1px #393E46 solid;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 5px 5px #393E46;
-    border-radius: 10px;
+    position: sticky;
+    top: 0;
 }
 
 .retroFont{
@@ -26,4 +27,8 @@ body{
     font-weight: bold;
     font-size: 14px;
     color: #393E46;
+}
+
+.imgresize{
+    width: 32px;
 }

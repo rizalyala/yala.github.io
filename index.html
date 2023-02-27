@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Site</title>
+    <title>MySite</title>
     <style>
         
     </style>
@@ -17,50 +17,67 @@
 <body>
     <div class="container mx-auto p-2 h-16 mt-3">
         <!-- NAVBAR -->
-        <nav >
+        <nav>
             <div class="flex flex-row justify-center cardnav">
-                <a class="mr-6 retroFont" href="#">Home</a>
-                <a class="mr-6 retroFont" href="#">Bio</a>
-                <a class="mr-6 retroFont" href="#">Projects</a>
+                <div>
+                    <a class="mr-6 retroFont" href="#sec1">Home</a>
+                    <a class="mr-6 retroFont" href="#sec2">Bio</a>
+                    <a class="mr-6 retroFont" href="#sec3">Projects</a>
+                </div>
+                
             </div>
         </nav>
 
         <!-- MAIN -->
 
-        <main>
-            <div class="mx-auto w-max h-max grid grid-cols-2 mt-6">
+        <main >
+            <div id="sec1" class="h-screen">
+                <div class="mx-auto w-max grid grid-cols-2 mt-6">
 
-                <!-- COL 1 -->
-                <div class="cardnav w-72 h-72">
-                    <img src="" alt="">
-                </div>
-                
-                <!-- COL 2 -->
-                <div class="mt-5">
-                    <div class="mb-1 p-1 retroFont14 text-lg text-zinc-400">> Rizal Yala Paradhika</div>
-                    <div class="mb-1 p-1 retroFont14 text-lg text-indigo-400">> Jr WebDev & Mobile App Dev</div>
-                    <div class="mb-1 p-1 retroFont14 text-lg">
-                        <span class="text-slate">Flutter & Dart |</span>
-                        <span class="text-slate">python |</span>
-                        <span class="text-slate">django |</span>
-                        <span class="text-slate">sql</span>
+                    <!-- COL 1 -->
+                    <div class="cardnav w-72 h-72">
+                        <img src="" alt="">
+                    </div>
+                    
+                    <!-- COL 2 -->
+                    <div class="mt-5">
+                        <div class="mb-1 p-1 retroFont14 text-lg text-zinc-400"> Rizal Yala Paradhika</div>
+                        <div class="mb-1 p-1 retroFont14 text-lg text-indigo-400"> Jr WebDev & Mobile App Dev</div>
+                        <div class="mb-1 p-1 retroFont14 text-lg">
+                            <span class="text-slate">Flutter & Dart |</span>
+                            <span class="text-slate">python |</span>
+                            <span class="text-slate">django |</span>
+                            <span class="text-slate">sql</span>
+                        </div>
+                        <div class="w-auto">
+                            <a href="https://github.com/rizalyala">
+                                <img class="imgresize" src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="mx-auto mt-6 retroFont14" style="width: 820px;">
-                <div>
-                    <p>Saya adalah Programmer, lebih tepatnya Programmer Mobile App.lahir di kota Malang, Indonesia.
-                        <br>Minat saya terhadap pemrograman dimulai sejak SMP atau 2015-an. Saat ini saya masih menempuh pendidikan S1 di Universitas Terbuka dengan Prodi Sistem Informasi.
-                            Saya merupakan freshgraduate di bidang pemrograman karena belum berpengalaman di industri teknologi manapun.
-        
-                        <br><br> Tetapi saya mempunyai beberapa proyek sebagai bahan referensi pengalaman saya.Selain itu saya mempunyai dasar seni , 
-                        tepatnya seni kerajinan keramik, memang tidak relevan dengan kemampuan yang saya kuasai saat ini, 
-                        namun bagi saya ilmu seni juga diperlukan saat mengembangkan aplikasi.
-                    </p>
+                
+                <div class="mx-auto mt-6 retroFont14" style="width: 820px;">
+                    <div>
+                        <p>Saya adalah Programmer, lebih tepatnya Programmer Mobile App.lahir di kota Malang, Indonesia.
+                            <br>Minat saya terhadap pemrograman dimulai sejak SMP atau 2015-an. Saat ini saya masih menempuh pendidikan S1 di Universitas Terbuka dengan Prodi Sistem Informasi.
+                                Saya merupakan freshgraduate di bidang pemrograman karena belum berpengalaman di industri teknologi manapun.
+            
+                            <br><br> Tetapi saya mempunyai beberapa proyek sebagai bahan referensi pengalaman saya.Selain itu saya mempunyai dasar seni , 
+                            tepatnya seni kerajinan keramik, memang tidak relevan dengan kemampuan yang saya kuasai saat ini, 
+                            namun bagi saya ilmu seni juga diperlukan saat mengembangkan aplikasi.
+                        </p>
+                    </div>
+                    
                 </div>
                 
+            </div>     
+
+            <div id="sec2" class="h-screen">
+                <div class="mx-auto w-max"></div>
             </div>
+
+            <div id="sec3" class="h-screen"></div>
         </main>
     </div>
     
