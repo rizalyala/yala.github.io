@@ -1,27 +1,27 @@
 body{
-    background-color: #FEFBE9;
+    background-color: #000000;
     
 }
 
 .cardnav{
-    background-color: #FEFBE9;
+    background-color: #000000;
     border: 1px #393E46 solid;
     padding: 5px;
-    box-shadow: 5px 5px #393E46;
-    position: sticky;
-    top: 0;
+    box-shadow: 5px 5px #E90064;
+    
 }
 
-.retroFont{
-    font-family: 'Silkscreen', cursive;
-    font-size: 24px;
+
+.retroFont:hover{
     color: #393E46;
     
 }
-.retroFont:hover{
-    color: #E384FF;
+.retroFont{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14px;
+    color: #E90064;
 }
-
 .retroFont14{
     font-family: monospace;
     font-weight: bold;
