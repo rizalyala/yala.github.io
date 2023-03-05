@@ -7,7 +7,7 @@ body{
     background-color: #000000;
     border: 1px #393E46 solid;
     padding: 5px;
-    box-shadow: 5px 5px #E90064;
+    box-shadow: 20px 20px #E90064;
     
 }
 
@@ -31,4 +31,7 @@ body{
 
 .imgresize{
     width: 32px;
+}
+.pageheight{
+    height: 600px;
 }
