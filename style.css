@@ -23,9 +23,9 @@ body{
     color: #E90064;
 }
 .retroFont14{
-    font-family: monospace;
+    font-family: 'Teko', sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 24px;
     color: #393E46;
 }
 

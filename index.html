@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>MySite</title>
@@ -15,33 +17,56 @@
         
     </style>
 </head>
-<body>
+<body >
     <div class="container mx-auto p-2 h-16 mt-3">
-        <!-- NAVBAR -->
-        <nav>
-            <div>
-                <div class="flex flex-row justify-center mb-3">
-                    
-                    <a class="mr-6 retroFont" href="#sec1">Home</a>
-                    <a class="mr-6 retroFont" href="#sec2">Projects</a>
-                    <a class="mr-6 retroFont" href="#sec3">Bio</a>
-                </div>
-                
-            </div>
-        </nav>
+        
 
         <!-- MAIN -->
 
         <main>
             
-            <div id="sec1" class="h-screen p-5 border-l border-pink-500">
-                <div>
-                    <div class="mx-auto w-max mt-6 ">
-                        <div href="#" class=" flex flex-col items-center border border-gray-200 rounded-lg md:flex-row md:max-w-xl ">
-                            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="/docs/images/blog/image-4.jpg" alt="">
+            <!-- <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                <span class="sr-only">Open sidebar</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
+                </svg>
+            </button> -->
+ 
+            <aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-48 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
+                <div class="h-full px-3 py-4 overflow-y-auto">
+
+                    <ul class="space-y-2 place-content-center">
+                        <div class="h-56 border-b"></div>
+                        <li>
+                            <a href="#sec1" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-rose-600 dark:hover:bg-rose-600">
+                                <span class="ml-3">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sec2" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-rose-600">
+                                <span class="flex-1 ml-3 whitespace-nowrap">Projects</span>
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#sec3" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-rose-600">
+                                <span class="flex-1 ml-3 whitespace-nowrap">Bio</span>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+ 
+            <div class="p-4 sm:ml-32">
+                
+                <div id="sec1" class="h-screen p-5">
+                    <div class="mx-auto w-max mt-6">
+                        <div href="#" class=" flex flex-col items-center border border-rose-800 rounded-lg md:flex-row md:max-w-xl ">
+                            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="fotku.jpg" alt="">
                             <div class="flex flex-col justify-between p-4 leading-normal">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">I'am Yala</h5>
-                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Junior Website & Mobile Programmer <br>Spesialis Framework di Flutter | Django | SQL
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-rose-800 dark:text-rose" style="font-family: 'Anton', sans-serif;font-size:48px;">I'am Yala</h5>
+                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400" style="font-family: 'Teko', sans-serif;font-size: 24px;">Junior Website & Mobile Programmer <br>Spesialis Framework di Flutter | Django | SQL
                                 </p>
                             </div>
                         </div>
@@ -58,36 +83,36 @@
                                 namun bagi saya ilmu seni juga diperlukan saat mengembangkan aplikasi.
                             </p>
                         </div>
+                    </div>
+                </div>
+                
+                <div id="sec2" class="h-screen p-5">
+                    <div class="mx-auto w-max flex">
+                        <div class="mr-2 max-w-sm border border-rose-800 rounded-lg shadow ">
+                            <a href="#">
+                                <img class="rounded-t-lg" src="Group 5.png" alt="" />
+                            </a>
+                            <div class="p-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                                </a>
+                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-rose-800 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rose-800 dark:hover:bg-rose-600 dark:focus:ring-blue-800">
+                                    Read more
+                                    <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </a>
+                            </div>
+                        </div>
                         
                     </div>
                     
-
-
                 </div>
-            </div>     
-            
-            <div id="sec2" class="h-screen p-5 border-l border-pink-500 ">
-                
-                <div class="mx-auto ">
-                    <div class="mr-2 max-w-sm border border-gray-200 rounded-lg shadow ">
-                        <a href="#">
-                            <img class="rounded-t-lg" src="Group 5.png" alt="" />
-                        </a>
-                        <div class="p-5">
-                            <a href="#">
-                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-                            </a>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                Read more
-                                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-                
             </div>
+ 
+
+             
+            
+            
 
             <div id="sec3" class="h-screen"></div>
         </main>
