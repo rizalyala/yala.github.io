@@ -3,6 +3,11 @@ body{
     margin: 0;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000000;
+  }
+
 .cardnav{
     background-color: #000000;
     border: 1px #393E46 solid;
