@@ -1,6 +1,6 @@
 body{
     background-color: #000000;
-    
+    margin: 0;
 }
 
 .cardnav{
@@ -23,10 +23,9 @@ body{
     color: #E90064;
 }
 .retroFont14{
-    font-family: 'Teko', sans-serif;
+    
     font-weight: bold;
-    font-size: 24px;
-    color: #393E46;
+    font-size: 14px;
 }
 
 .imgresize{
