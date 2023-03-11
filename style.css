@@ -39,3 +39,13 @@ body{
 .pageheight{
     height: 600px;
 }
+
+.content {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 1s ease-in-out, transform 3s ease-in-out;
+}
+.content.show {
+    opacity: 1;
+    transform: translateX(0);
+}

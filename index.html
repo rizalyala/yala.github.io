@@ -52,7 +52,7 @@
  
             <div class="p-4 sm:ml-32">
                 
-                <div id="sec1" class="h-screen p-5 justify-center flex items-center" >
+                <div id="sec1" class="h-screen p-5 justify-center flex items-center content" >
                     <div class="block" style="top: 200vh;">
                         <div class="my-auto mx-auto" style="width: 470px;">
                             <p class="text-rose-600 text-9xl ">I'm Yala;</p>
@@ -70,7 +70,7 @@
                     
                 </div>
                 
-                <div id="sec2" class="h-screen p-5">
+                <div id="sec2" class="h-screen p-5 content">
                     <div class="mx-auto w-max flex">
                         <div class="mr-2 max-w-sm border border-rose-800 rounded-lg shadow ">
                             <a href="#">
@@ -81,9 +81,13 @@
                                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Property App</h5>
                                 </a>
                                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Aplikasi E-Commerce property dengan fitur wilayah, untuk saat ini masih dalam tahap pengembangan.Sementara anda bisa mencoba versi pengembangannya.</p>
-                                <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-rose-800 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rose-800 dark:hover:bg-rose-600 dark:focus:ring-blue-800">
-                                    Install
-                                </a>
+                                <div class="flex">
+                                    <a href="https://drive.google.com/file/d/1Rlj4psV-Gn5IeoUUfcp5gtrgI8w-dBi3/view?usp=share_link" target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-rose-800 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-rose-800 dark:hover:bg-rose-600 dark:focus:ring-blue-800">
+                                        Install
+                                    </a>
+                                    <p class="text-rose-600 m-2">v.1.0-debug.apk</p>
+                                </div>
+                                
                             </div>
                         </div>
                         
@@ -91,17 +95,17 @@
                     
                 </div>
 
-                <div id="sec3" class="h-screen">
+                <div id="sec3" class="h-screen content">
                     <h1 class="text-2xl text-rose-600 font-semibold font-mono">About Me</h1><hr><br>
                     
-                    <a href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                    <div href="#" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                         <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-l-lg" src="fotku.jpg" alt="">
                         <div class="flex flex-col justify-between p-4 leading-normal font-mono">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ">Rizal Yala Paradhika</h5>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Born in Malang ,Indonesia</p>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">rizalyala19@gmail.com</p>
                         </div>
-                    </a>
+                    </div>
                     <br>
                     <div class="relative overflow-x-auto rounded-lg font-mono">
                         <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
@@ -165,7 +169,7 @@
             
         </main>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
 </html>
