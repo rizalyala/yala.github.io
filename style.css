@@ -54,5 +54,11 @@ body{
         display: block;
         
     }
+    .wid{
+        width: 400px;
+    }
 }
 
+.wid{
+    width: 470px;
+}
