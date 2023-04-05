@@ -50,14 +50,9 @@ body{
     transform: translateX(0);
 }
 @media only screen and (max-width: 600px){
-    .disable{
-        display: none;
-    }
-    .wid{
-        width: 470px;
+    .list{
+        display: block;
+        
     }
 }
 
-.wid{
-    width: 470px;
-}
