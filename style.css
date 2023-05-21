@@ -1,66 +1,68 @@
 body{
     background-color: #ffffff;
     margin: 0;
+    
+}
+.sel{
+    position: relative;
+    top: -20vh;
+    left: 21vh;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    background-color: #DE4242;
+    padding: 5px;
 }
 
-::-webkit-scrollbar {
-    width: 8px;
-    background-color: #000000;
+@media screen and (max-width: 1280px) {
+    .sel {
+      top: -15vh;
+      left: 17vh;
+    }
   }
 
-.cardnav{
-    background-color: #000000;
-    border: 1px #393E46 solid;
-    padding: 5px;
-    box-shadow: 20px 20px #E90064;
+.sel:hover{
+    color: #919191;
+}
+
+.navigasi{
+    position: fixed;
+    background-color: #DE4242;
+    width: 1250px;
+    height: 50px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.header li{
+    display: inline;
+    padding-right: 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
     
 }
 
-
-.retroFont:hover{
-    color: #393E46;
-    
-}
-.retroFont{
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 14px;
-    color: #E90064;
-}
-.retroFont14{
-    
-    font-weight: bold;
-    font-size: 14px;
+.prolist li{
+    display: inline-block;
+    position: relative;
+    top: -70vh;
+    left: 30vh;
+    z-index: 0;
+    height: 100px;
 }
 
-.imgresize{
-    width: 32px;
-}
-.pageheight{
-    height: 600px;
+.prolist li:hover{
+    display: none;
 }
 
-.content {
-    opacity: 0;
-    transform: translateX(100px);
-    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+footer{
+    background-color: #de424280;
+    height: 100px;
 }
-.content.show {
-    opacity: 1;
-    transform: translateX(0);
+.containers{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
 }
-@media only screen and (max-width: 600px){
-    .list{
-        display: block;
-        
-    }
-    .wid{
-        width: 400px;
-    }
-    
-}
-
-.wid{
-    width: 470px;
-}
-
+  
