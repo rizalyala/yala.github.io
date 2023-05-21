@@ -27,7 +27,7 @@ body{
 
 .navigasi{
     position: fixed;
-    background-color: #DE4242;
+    
     width: 1250px;
     height: 50px;
     padding: 10px;
@@ -39,7 +39,7 @@ body{
     padding-right: 20px;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 255, 255);
+    color: #DE4242;
     
 }
 
@@ -65,4 +65,4 @@ footer{
     text-align: center;
     padding-top: 10px;
 }
-  
+
